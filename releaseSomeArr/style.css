@@ -1,0 +1,13 @@
+.wrapper {
+  width: 90%;
+  margin: 5rem auto;
+}
+
+.arr-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+#populateArr {
+  margin-top: 1rem;
+}
