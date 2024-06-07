@@ -1,0 +1,18 @@
+.wrapper {
+  width: 90%;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.wrapper div {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper button {
+  width: 20%;
+  margin: auto;
+}

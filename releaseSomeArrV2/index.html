@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/releaseSomeArrV2/style.css">
+    <title>Sample</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="value">
+            <label for="value">Value: </label>
+            <input type="text" id="value" name="value" inputmode="decimal">
+        </div>
+
+        <div class="selector">
+            <label for="selectorId">Selector: </label>
+            <input type="checkbox" id="selectorId" name="selectorId" checked>
+        </div>
+
+        <div class="second-cb">
+            <label for="secondCb">CB: </label>
+            <input type="checkbox" id="secondCb" name="secondCb">
+        </div>
+
+        <div class="prio-status">
+            <label for="prioStatus">Prioritas: </label>
+            <input type="text" id="prioStatus" name="prioStatus">
+        </div>
+
+        <button onclick="displayArr()">Add Data</button>
+
+        <div>
+            <p id="displayContainer"></p>
+        </div>
+
+        <div class="target-release">
+            <label for="releaseTarget">Target Release: </label>
+            <input type="text" id="releaseTarget" name="releaseTarget">
+            <button onclick="sumLocalStorage()">Release Number</button>
+            <button onclick="displayDataCollection()">Display Data</button>
+        </div>
+
+        <div class="throw-data" id="throwData">
+            <h1>Nomer yang dibuang</h1>
+            <p id="closestSubset"></p>
+            <p id="closestSum"></p>
+        </div>
+
+        <div class="displayData" id="displayData">
+            <h1>Koleksi datanya</h1>
+        </div>
+    </div>
+</body>
+
+<script src="/releaseSomeArrV2/main.js"></script>
+<script src="/releaseSomeArrV2/subsetSum.js"></script>
+<script src="/releaseSomeArrV2/displayData.js"></script>
+
+</html>
