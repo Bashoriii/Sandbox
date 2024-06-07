@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/releaseSomeArr/style.css">
     <title>Sample</title>
 </head>
 
 <body>
     <div class="wrapper">
-        <label>Masukan nilai target: </label>
-        <input type="text">
-
+        <label>Target Release: </label>
+        <input type="text" id="releaseTarget">
         <div class="arr-container">
-            <label>Array: </label>
-            <p id="arrContainer"></p>
+            <label>Nilai Array: </label>
+            <input type="text" id="inputArr">
+            <p>Total Nilai Array: <span id="totalValue"></span></p>
         </div>
-        <button id="populateArr">Populate Data</button>
+        <button id="getValueArr">Release</button>
+        <div class="result-container">
+            <p>Nilai yang diambil: <span id="subsetsId"></span></p>
+            <p>Total nilai: <span id="totalSum"></span></p>
+        </div>
     </div>
 </body>
 
-<script src="/main.js"></script>
+<script src="/releaseSomeArr/main.js"></script>
 
 </html>
